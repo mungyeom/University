@@ -1,0 +1,5 @@
+   VIF Factor                features
+0    5.091832               Intercept
+1    1.645937   LIGHTING_COST_CURRENT
+2    1.715637    HEATING_COST_CURRENT
+3    1.054620  HOT_WATER_COST_CURRENT

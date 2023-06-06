@@ -1,0 +1,31 @@
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.512
+Model:                                   OLS   Adj. R-squared:                  0.512
+Method:                        Least Squares   F-statistic:                 3.230e+04
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):               0.00
+Time:                               14:32:43   Log-Likelihood:            -4.4759e+05
+No. Observations:                     123212   AIC:                         8.952e+05
+Df Residuals:                         123207   BIC:                         8.952e+05
+Df Model:                                  4                                         
+Covariance Type:                   nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept     83.2367      0.060   1388.691      0.000      83.119      83.354
+B             -9.7140      0.080   -121.108      0.000      -9.871      -9.557
+C            -14.2173      0.127   -112.245      0.000     -14.466     -13.969
+D            -19.9701      0.104   -191.880      0.000     -20.174     -19.766
+E            -24.2567      0.072   -336.443      0.000     -24.398     -24.115
+==============================================================================
+Omnibus:                    49949.808   Durbin-Watson:                   1.952
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           312486.689
+Skew:                          -1.840   Prob(JB):                         0.00
+Kurtosis:                       9.879   Cond. No.                         6.72
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+"""

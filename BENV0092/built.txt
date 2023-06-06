@@ -1,0 +1,29 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.049
+Model:                                   OLS   Adj. R-squared:                  0.049
+Method:                        Least Squares   F-statistic:                     743.9
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):               0.00
+Time:                               14:25:52   Log-Likelihood:            -2.7763e+05
+No. Observations:                      71519   AIC:                         5.553e+05
+Df Residuals:                          71513   BIC:                         5.553e+05
+Df Model:                                  5                                         
+Covariance Type:                   nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               71.0248      0.171    415.648      0.000      70.690      71.360
+Enclosed End-Terrace    -5.9849      0.454    -13.175      0.000      -6.875      -5.095
+Enclosed Mid-Terrace     0.6167      0.415      1.487      0.137      -0.196       1.430
+End-Terrace            -10.5940      0.201    -52.837      0.000     -10.987     -10.201
+Mid-Terrace             -9.3162      0.179    -51.990      0.000      -9.667      -8.965
+Semi-Detached           -9.4967      0.236    -40.203      0.000      -9.960      -9.034
+==============================================================================
+Omnibus:                    17046.894   Durbin-Watson:                   0.279
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            61086.250
+Skew:                          -1.174   Prob(JB):                         0.00
+Kurtosis:                       6.871   Cond. No.                         14.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
