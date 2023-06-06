@@ -1,0 +1,28 @@
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.161
+Model:                                   OLS   Adj. R-squared:                  0.161
+Method:                        Least Squares   F-statistic:                 2.376e+04
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):               0.00
+Time:                               14:21:13   Log-Likelihood:            -4.8337e+05
+No. Observations:                     123792   AIC:                         9.668e+05
+Df Residuals:                         123790   BIC:                         9.668e+05
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+==========================================================================================
+                             coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------------
+intercept                 77.7037      0.071   1090.709      0.000      77.564      77.843
+HOT_WATER_COST_CURRENT    -0.0846      0.001   -154.153      0.000      -0.086      -0.084
+==============================================================================
+Omnibus:                     9643.628   Durbin-Watson:                   1.919
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14694.233
+Skew:                          -0.621   Prob(JB):                         0.00
+Kurtosis:                       4.143   Cond. No.                         271.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+"""

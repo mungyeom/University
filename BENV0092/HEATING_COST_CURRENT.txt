@@ -1,0 +1,28 @@
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.494
+Model:                                   OLS   Adj. R-squared:                  0.494
+Method:                        Least Squares   F-statistic:                 1.209e+05
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):               0.00
+Time:                               14:20:32   Log-Likelihood:            -4.5206e+05
+No. Observations:                     123792   AIC:                         9.041e+05
+Df Residuals:                         123790   BIC:                         9.041e+05
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               79.2543      0.042   1901.046      0.000      79.173      79.336
+HEATING_COST_CURRENT    -0.0234   6.73e-05   -347.748      0.000      -0.024      -0.023
+==============================================================================
+Omnibus:                   375059.380   Durbin-Watson:                   1.962
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):     294507299982.204
+Skew:                          44.042   Prob(JB):                         0.00
+Kurtosis:                    7558.755   Cond. No.                         974.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+"""

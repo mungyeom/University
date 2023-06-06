@@ -1,0 +1,27 @@
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.045
+Model:                                   OLS   Adj. R-squared:                  0.045
+Method:                        Least Squares   F-statistic:                     1120.
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):               0.00
+Time:                               14:24:46   Log-Likelihood:            -2.7780e+05
+No. Observations:                      71519   AIC:                         5.556e+05
+Df Residuals:                          71515   BIC:                         5.556e+05
+Df Model:                                  3                                         
+Covariance Type:                   nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept     61.7412      0.665     92.823      0.000      60.438      63.045
+Flat           4.2418      0.670      6.329      0.000       2.928       5.555
+House         -1.2638      0.667     -1.894      0.058      -2.572       0.044
+Maisonette     3.7395      0.700      5.346      0.000       2.368       5.111
+==============================================================================
+Omnibus:                    16638.724   Durbin-Watson:                   0.275
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            56225.098
+Skew:                          -1.165   Prob(JB):                         0.00
+Kurtosis:                       6.666   Cond. No.                         38.0
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

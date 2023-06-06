@@ -1,0 +1,28 @@
+<class 'statsmodels.iolib.summary.Summary'>
+"""
+                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     CURRENT_ENERGY_EFFICIENCY   R-squared:                       0.007
+Model:                                   OLS   Adj. R-squared:                  0.006
+Method:                        Least Squares   F-statistic:                     810.2
+Date:                       Thu, 05 Jan 2023   Prob (F-statistic):          1.23e-177
+Time:                               14:22:10   Log-Likelihood:            -4.9384e+05
+No. Observations:                     123792   AIC:                         9.877e+05
+Df Residuals:                         123790   BIC:                         9.877e+05
+Df Model:                                  1                                         
+Covariance Type:                   nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+intercept                68.8806      0.047   1467.867      0.000      68.789      68.973
+LIGHTING_COST_CURRENT    -0.0127      0.000    -28.464      0.000      -0.014      -0.012
+==============================================================================
+Omnibus:                    21655.932   Durbin-Watson:                   1.906
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           103471.826
+Skew:                          -0.777   Prob(JB):                         0.00
+Kurtosis:                       7.200   Cond. No.                         133.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+"""
