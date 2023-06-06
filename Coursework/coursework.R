@@ -930,7 +930,7 @@ print(plot25_0)
 ###############################################################################
 
 #map----
-register_google(key = 'AIzaSyD1nobEpoqk1AhtSt0c0sX5ofccmeeWIpk')
+register_google(key = '')
 
 ##The map of Campi Flegrei
 `Campi Flegrei` <- get_googlemap('Campi Flegrei', 
