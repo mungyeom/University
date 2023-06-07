@@ -14,7 +14,7 @@
  - **K-means Clustering**
  - **OLS Regression**
 
- **Above assignment was completed using Python - codes are uploaded**
+ **Above assignment was completed using Python - codes and results are uploaded**
  **************
  ## GEOL0065
  1. The title is **Comparing Episodes of Volcanic Unrest at Campi Flegrei Caldera, Italy**
@@ -26,5 +26,5 @@
  - **Geopysical Analysis**
  - **Geochemical Analysis** 
  
- **Above assignment was completed using R - codes are uploaded**
+ **Above assignment was completed using R - codes and results are uploaded**
  
